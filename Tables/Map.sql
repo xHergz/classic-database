@@ -1,0 +1,8 @@
+CREATE TABLE Map
+(
+    Map_Id INT AUTO_INCREMENT,
+    Planet_Id INT AUTO_INCREMENT,
+    Name VARCHAR(50) NOT NULL,
+    PRIMARY KEY(Map_Id),
+    FOREIGN KEY(Planet_Id) REFERENCES Planet(Planet_Id)
+);
