@@ -378,17 +378,146 @@ INSERT INTO Item (Item_Id, Item_Type_Id, Name) VALUES
 (5000434, 12, 'Legend Boots of Shadow'),
 (5000438, 12, 'Golden Velvet Boots of Shadow'),
 -- Hair Decoration (13)
-
--- Decoration (13)
-
--- Glasses (14)
-
--- Masks (15)
-
--- Bags (16)
-
--- Back Decoration (17)
-
--- Back Shield (18)
-
--- Wings (19)
+(2000241, 13, 'Royal Crown'),
+-- Decoration (14)
+(1000062, 14, 'Red Pierrot Nose'),
+(1000064, 14, 'Pinocchio Nose'),
+(1000073, 14, 'Santa Beard'),
+-- Glasses (15)
+(1000031, 15, 'Glasses Frame'),
+(1000032, 15, 'Dork Glasses'),
+(1000033, 15, 'Thick Framed Glasses'),
+(1000034, 15, 'Sunglasses'),
+(1000035, 15, 'Charming Sunglasses'),
+(1000038, 15, 'Cart Goggles'),
+-- Masks (16)
+(1000001, 16, 'Flu Mask'),
+(1000002, 16, 'Black Mask'),
+(1000003, 16, 'Butterfly Mask'),
+(1000004, 16, 'Zorra Mask'),
+(1000005, 16, 'Persian Mask'),
+(1000006, 16, 'Wicked Mask'),
+(1000007, 16, 'Jolly Front Mask'),
+(1000008, 16, 'Iron Mask'),
+(1000009, 16, 'Totem Mask'),
+(1000011, 16, 'Ashura Mask'),
+(1000013, 16, 'Mask of Lies'),
+-- Bags (17)
+(6000202, 17, 'Leather Bag'),
+(6000203, 17, 'Wooden Chest'),
+(6000206, 17, 'Cutie Bag'),
+(6000208, 17, 'Street Bag'),
+(6000210, 17, 'Tamiya Bag'),
+(6000211, 17, 'Ferrell Bag'),
+(6000212, 17, 'Magic Cubic'),
+-- Back Decoration (18)
+-- Back Shield (19)
+(6000241, 19, 'Turtle Backshield'),
+(6000242, 19, 'Endeavour Backshield'),
+(6000243, 19, 'Training Backshield'),
+(6000244, 19, 'Guard Backshield'),
+(6000245, 19, 'Lion Backshield'),
+(6000247, 19, 'Buffalo Backshield'),
+(6000248, 19, 'Lizard Backshield'),
+-- Wings (20)
+(6000027, 20, 'Astarot Wing of Humility'),
+(6000028, 20, 'Astarot Wing of Kindness'),
+(6000029, 20, 'Astarot Wing of Forgiveness'),
+(6000030, 20, 'Astarot Wing of Diligence'),
+(6000030, 20, 'Astarot Wing of Charity'),
+(6000031, 20, 'Astarot Wing of Temperance'),
+(6000221, 20, 'Fairy Wing'),
+(6000222, 20, 'Nymph Wing'),
+(6000223, 20, 'Butterfly Wing'),
+(6000224, 20, 'Little Angel Wing'),
+(6000225, 20, 'Little Devil Wing'),
+(6000226, 20, 'Crow Wing'),
+(6000227, 20, 'Angel Wing'),
+(6000228, 20, 'Devil Wing'),
+(6000231, 20, 'Worm Dragon Wing'),
+(6000233, 20, 'Astarot Wing'),
+-- Blunts (21)
+(, 21, ''),
+(, 21, ''),
+(, 21, ''),
+(, 21, ''),
+(, 21, ''),
+(, 21, ''),
+(, 21, ''),
+(, 21, ''),
+(, 21, ''),
+-- One Handed Swords (22)
+(, 22, ''),
+(, 22, ''),
+(, 22, ''),
+(, 22, ''),
+(, 22, ''),
+(, 22, ''),
+(, 22, ''),
+(, 22, ''),
+(, 22, ''),
+-- Axes (23)
+(, 23, ''),
+(, 23, ''),
+(, 23, ''),
+(, 23, ''),
+(, 23, ''),
+(, 23, ''),
+(, 23, ''),
+(, 23, ''),
+(, 23, ''),
+-- Dual Swords (24)
+(, 24, ''),
+(, 24, ''),
+(, 24, ''),
+(, 24, ''),
+(, 24, ''),
+(, 24, ''),
+(, 24, ''),
+(, 24, ''),
+(, 24, ''),
+-- Glaives (25)
+(, 25, ''),
+(, 25, ''),
+(, 25, ''),
+(, 25, ''),
+(, 25, ''),
+(, 25, ''),
+(, 25, ''),
+(, 25, ''),
+(, 25, ''),
+-- Katars (26)
+-- Spears (27)
+-- Two Handed Swords (28)
+-- Staffs (29)
+-- Wands (30)
+-- Bows (31)
+-- Crossbows (32)
+-- Guns (33)
+-- Launchers (34)
+-- Doll (35)
+-- Magic Tool (36)
+-- Offhand Accessory (37)
+-- Shield (38)
+-- Carts (39)
+-- Castle Gear(40)
+-- Pets (41)
+-- Rings (42)
+-- Necklaces (43)
+-- Earrings (44)
+-- Gems (45)
+-- Chemicals (46)
+-- Clothes (47)
+-- Gathered Good (48)
+-- Leathers (49)
+-- Materials (50)
+-- Metals (51)
+-- Ore (52)
+-- Otherworldy Metal (53)
+-- Refining (54)
+-- Stone (55)
+-- Wood (56)
+-- Arrow (57)
+-- Bullet (58)
+-- Shell (59)
+-- Consumables (60)
