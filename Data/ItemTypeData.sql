@@ -67,4 +67,10 @@ INSERT INTO Item_Type (Description) VALUES
 ('Arrow'),
 ('Bullet'),
 ('Shell'),
-('Consumables');
+('Consumable Bags'),
+('Foods'),
+('Potions'),
+('Repair Tools'),
+('Skills Books'),
+('Teleport Scrolls'),
+('Timed Coupons');
