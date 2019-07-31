@@ -73,4 +73,7 @@ INSERT INTO Item_Type (Description) VALUES
 ('Repair Tools'),
 ('Skills Books'),
 ('Teleport Scrolls'),
-('Timed Coupons');
+('Timed Coupons'),
+('Automatic Consumption'),
+('Summon'),
+('Magic Item');

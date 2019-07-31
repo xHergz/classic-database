@@ -1376,4 +1376,15 @@ INSERT INTO Item (Item_Id, Item_Type_Id, Name) VALUES
 -- Teleport Scrolls (71)
 -- (, 71, ''),
 -- Timed Coupons (72)
-(10000970, 72, 'No Experience Medal');
+(10000970, 72, 'No Experience Medal'),
+-- Automatic Consumption (73)
+(10000151, 73, 'Health Point (+50)'),
+(10000171, 73, 'Stamina (+50)'),
+(10000172, 73, 'Stamina (+75)'),
+-- Summon (74)
+(10000401, 74, 'Jelly Bean Capsule'),
+(10000402, 74, 'Jelly Nut Capsule'),
+(10000403, 74, 'Choropy Capsule'),
+(10000404, 74, 'Pumpkin Capsule'),
+-- Magic Item (75)
+(10000992, 75, 'Firecracker - Happy Birthday');
