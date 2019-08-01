@@ -1,6 +1,6 @@
 @ECHO off
 
-SET cnfFile=./classicDb.cnf
+SET cnfFile=C:\Users\Justin\Documents\Database\Configs\classicDb.cnf
 SET databaseName=ClassicDatabase
 ECHO CNF File: %cnfFile%
 ECHO Database: %databaseName%

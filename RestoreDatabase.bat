@@ -1,8 +1,8 @@
 @ECHO off
 
-SET cnfFile=./classicDb.cnf
+SET cnfFile=C:\Users\Justin\Documents\Database\Configs\classicDb.cnf
 SET databaseName=ClassicDatabase
-SET backupPath=C:\Users\Justin\Documents\Database Backups\
+SET backupPath=C:\Users\Justin\Documents\Database\Backups\
 ECHO CNF File: %cnfFile%
 ECHO Database: %databaseName%
 SET /p backupDate="Backup Date (YYYY-MM-DD): "

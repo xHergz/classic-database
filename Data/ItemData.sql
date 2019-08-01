@@ -172,7 +172,7 @@ INSERT INTO Item (Item_Id, Item_Type_Id, Name) VALUES
 (4000613, 3, 'Holy Vibe Gloves'),
 (4000624, 3, 'Elven Semiya Gloves'),
 (4000634, 3, 'Legend Merchant Gloves'),
-(4000638, 3, 'Golden Rich Merchant Gloves')
+(4000638, 3, 'Golden Rich Merchant Gloves'),
 -- Shoes (4)
 (5000002, 4, 'Red Shoes'),
 (5000003, 4, 'Waterproof Shoes'),
@@ -424,8 +424,9 @@ INSERT INTO Item (Item_Id, Item_Type_Id, Name) VALUES
 (6000028, 20, 'Astarot Wing of Kindness'),
 (6000029, 20, 'Astarot Wing of Forgiveness'),
 (6000030, 20, 'Astarot Wing of Diligence'),
-(6000030, 20, 'Astarot Wing of Charity'),
-(6000031, 20, 'Astarot Wing of Temperance'),
+(6000031, 20, 'Astarot Wing of Charity'),
+(6000032, 20, 'Astarot Wing of Temperance'),
+(6000033, 20, 'Astarot Wing of Purity'),
 (6000221, 20, 'Fairy Wing'),
 (6000222, 20, 'Nymph Wing'),
 (6000223, 20, 'Butterfly Wing'),
@@ -1229,7 +1230,15 @@ INSERT INTO Item (Item_Id, Item_Type_Id, Name) VALUES
 (12000009, 57, 'Tiar'),
 (12000010, 57, 'Damascus'),
 -- Ore (58)
--- None on classic
+(12000473, 58, 'Silver Ore'),
+(12000474, 58, 'Silver Ore (Low Quality)'),
+(12000475, 58, 'Silver Ore (High Quality)'),
+(12000476, 58, 'Gold Ore'),
+(12000477, 58, 'Gold Ore (Low Quality)'),
+(12000478, 58, 'Gold Ore (High Quality)'),
+(12000484, 58, 'Herb Root'),
+(12000485, 58, 'Herb Stem'),
+(12000486, 58, 'Herb Leaf'),
 -- Otherworldy Metal (59)
 (12000011, 59, 'Unprocessed Metal'),
 (12000012, 59, 'Demon Metal'),
@@ -1379,6 +1388,11 @@ INSERT INTO Item (Item_Id, Item_Type_Id, Name) VALUES
 (10000970, 72, 'No Experience Medal'),
 -- Automatic Consumption (73)
 (10000151, 73, 'Health Point (+50)'),
+(10000155, 73, 'Health Point (+500)'),
+(10000161, 73, 'Mana Point (+30)'),
+(10000163, 73, 'Mana Point (+100)'),
+(10000165, 73, 'Mana Point (+300)'),
+(10000163, 73, 'Mana Point (+100)'),
 (10000171, 73, 'Stamina (+50)'),
 (10000172, 73, 'Stamina (+75)'),
 -- Summon (74)
@@ -1386,5 +1400,18 @@ INSERT INTO Item (Item_Id, Item_Type_Id, Name) VALUES
 (10000402, 74, 'Jelly Nut Capsule'),
 (10000403, 74, 'Choropy Capsule'),
 (10000404, 74, 'Pumpkin Capsule'),
+(10000405, 74, 'Dapling Capsule'),
+(10000406, 74, 'Honey Bee Capsule'),
+(10000406, 74, 'Hornet Capsule'),
+(10000408, 74, 'Pomic Capsule'),
+(10000409, 74, 'Pomic Soldier Capsule'),
+(10000410, 74, 'Beetle Capsule'),
+(10000411, 74, 'Turtle Capsule'),
+(10000413, 74, 'Rackie Capsule'),
+(10000414, 74, 'Woopie Capsule'),
+(10000417, 74, 'Porkie Capsule'),
+(10000425, 74, 'Aqua Guard Capsule'),
 -- Magic Item (75)
+(10000307, 75, 'MP Scroll (Solo)'),
+(10000308, 75, 'Dexterity (Solo)'),
 (10000992, 75, 'Firecracker - Happy Birthday');

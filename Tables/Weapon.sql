@@ -5,6 +5,6 @@ CREATE TABLE Weapon
     Level INT NOT NULL,
     Attack_Power INT NOT NULL,
     Attack_Speed INT NOT NULL,
-    PRIMARY KEY(Armor_Id),
+    PRIMARY KEY(Weapon_Id),
     FOREIGN KEY(Item_Id) REFERENCES Item(Item_Id)
 );

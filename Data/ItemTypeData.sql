@@ -12,9 +12,9 @@ INSERT INTO Item_Type (Description) VALUES
 ('Magic Gloves'),
 ('Magic Shoes'),
 ('Hair Decoration'),
-('Decoration')
-('Glasses')
-('Masks')
+('Decoration'),
+('Glasses'),
+('Masks'),
 ('Bags'),
 ('Back Decoration'),
 ('Back Shield'),
@@ -37,7 +37,7 @@ INSERT INTO Item_Type (Description) VALUES
 ('Magic Tool'),
 ('Offhand Accessory'),
 ('Shield'),
-('Armbracelets')
+('Armbracelets'),
 ('Cart Accessories'),
 ('Cart Bodies'),
 ('Cart Engines'),
@@ -47,7 +47,7 @@ INSERT INTO Item_Type (Description) VALUES
 ('Castle Gear Legs'),
 ('Castle Gear Weapons'),
 ('Mounts'),
-('Pet Accessories')
+('Pet Accessories'),
 ('Pet Skins'),
 ('Rings'),
 ('Necklaces'),
