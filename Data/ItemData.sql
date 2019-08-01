@@ -1400,6 +1400,7 @@ INSERT INTO Item (Item_Id, Item_Type_Id, Name) VALUES
 (10000171, 73, 'Stamina (+50)'),
 (10000172, 73, 'Stamina (+75)'),
 (10000173, 73, 'Stamina (+100)'),
+(10000174, 73, 'Stamina (+150)'),
 (10000181, 73, 'Clan Point (+1)'),
 (10000182, 73, 'Clan Point (+2)'),
 (10000183, 73, 'Clan Point (+3)'),
@@ -1456,4 +1457,9 @@ INSERT INTO Item (Item_Id, Item_Type_Id, Name) VALUES
 (10000317, 75, 'Advanced Defence Scroll (Solo)'),
 (10000318, 75, 'Advanced Accuracy Scroll (Solo)'),
 (10000319, 75, 'Advanced Damage Scroll (Solo)'),
+(10000322, 75, 'Green Icicle'),
+(10000323, 75, 'White Icicle'),
+(10000381, 75, 'Ice Charm'),
+(10000382, 75, 'Spark Charm'),
+(10000383, 75, 'Blood Charm'),
 (10000992, 75, 'Firecracker - Happy Birthday');
