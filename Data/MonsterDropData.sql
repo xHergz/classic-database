@@ -1,4 +1,3 @@
-SET FOREIGN_KEY_CHECKS = 0;
 INSERT INTO Monster_Drop(Monster_Id, Item_Id) VALUES
 -- ButterFly
 (8, 2000003),
@@ -5983,4 +5982,3 @@ INSERT INTO Monster_Drop(Monster_Id, Item_Id) VALUES
 (420, 12000162),
 (420, 12000163),
 (420, 12000164);
-SET FOREIGN_KEY_CHECKS = 1;

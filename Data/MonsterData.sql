@@ -22,6 +22,7 @@ INSERT INTO Monster (Monster_Id, Monster_Type_Id, Name, Level) VALUES
 (4, @NORMAL, 'Royal Jelly Bean', 4),
 (11, @NORMAL, 'Mini-Choropy', 4),
 (3696, @NORMAL, 'Jelly Bean', 4),
+(3698, @NORMAL, 'Mini-Choropy', 4),
 (3, @NORMAL, 'JellyNut', 5),
 (3697, @NORMAL, 'JellyNut', 5),
 (5, @NORMAL, 'Red Jelly Bean', 6),
