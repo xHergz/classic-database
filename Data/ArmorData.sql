@@ -1,3 +1,4 @@
+-- Test
 INSERT INTO Armor (Item_Id, Job_Id, Level, Defence, Magic_Resistance) VALUES
 (2000002, NULL, 0, 5, 2),
 (2000003, NULL, 4, 5, 2),
