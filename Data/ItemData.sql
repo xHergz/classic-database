@@ -1,6 +1,6 @@
 INSERT INTO Item (Item_Id, Item_Type_Id, Name) VALUES
 -- Hats (1)
-(2000002,  1, 'Green Hat'),
+(2000002, 1, 'Green Hat'),
 (2000003, 1, 'Luxorious Green Hat'),
 (2000004, 1, 'Bandana of Iguje'),
 (2000005, 1, 'Islamic Bandana'),

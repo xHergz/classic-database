@@ -1,0 +1,6 @@
+CREATE TABLE Job
+(
+    Job_Id INT AUTO_INCREMENT,
+    Name VARCHAR(50) NOT NULL,
+    PRIMARY KEY(Job_Id)
+);
