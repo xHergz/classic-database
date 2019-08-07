@@ -22,12 +22,23 @@ call:runMySqlFile "./Tables/MapDrop.sql"
 call:runMySqlFile "./Tables/MonsterDrop.sql"
 call:runMySqlFile "./Tables/MonsterSpawn.sql"
 
-
 REM Create the Views
+call:runMySqlFile "./Views/ArmorInfo.sql"
+call:runMySqlFile "./Views/MapDropInfo.sql"
+call:runMySqlFile "./Views/MonsterDropInfo.sql"
 
 REM Create the Functions
+call:runMySqlFile "./Functions/CalculateDefenceDifference.sql"
+call:runMySqlFile "./Functions/CalculateMagicResistanceDifference.sql"
 
 REM Create the Stored Procedures
+call:runMySqlFile "./Stored Procedures/ChemicalAudit.sql"
+call:runMySqlFile "./Stored Procedures/DealerArmorAudit.sql"
+call:runMySqlFile "./Stored Procedures/GemAudit.sql"
+call:runMySqlFile "./Stored Procedures/HawkerArmorAudit.sql"
+call:runMySqlFile "./Stored Procedures/MuseArmorAudit.sql"
+call:runMySqlFile "./Stored Procedures/RefineAudit.sql"
+call:runMySqlFile "./Stored Procedures/SoldierArmorAudit.sql"
 
 REM Insert the initial data
 call:runMySqlFile "./Data/PlanetData.sql"
