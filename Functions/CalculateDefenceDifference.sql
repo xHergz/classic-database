@@ -34,7 +34,10 @@ BEGIN
         INNER JOIN Item ON Item.Item_Id = Armor.Item_Id
     WHERE
         Item.Item_Type_Id = _itemTypeId
-        AND Armor.Job_Id = _jobId
+        AND (
+            Armor.Job_Id = _jobId
+            OR (_jobId IS NULL AND Armor.Job_Id IS NULL)
+        )
         AND Armor.Level < _level
     ORDER BY
         Armor.Level DESC
