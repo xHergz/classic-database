@@ -1,5 +1,5 @@
 INSERT INTO Map_Drop(Map_Id, Item_Id) VALUES
--- Adventurer`s Plains
+-- Adventurer's Plains
 (22, 10000056),
 (22, 10000057),
 (22, 10000058),
@@ -31,8 +31,6 @@ INSERT INTO Map_Drop(Map_Id, Item_Id) VALUES
 (25, 12000099),
 (25, 12000102),
 (25, 12000121),
--- Battle Royale
--- No Drops
 -- Birth Island
 (20, 10000057),
 (20, 10000058),
@@ -42,15 +40,6 @@ INSERT INTO Map_Drop(Map_Id, Item_Id) VALUES
 (20, 12000031),
 (20, 12000032),
 (20, 12000033),
--- Birth Island
--- No Drops
--- No Drops
--- No Drops
--- No Drops
--- No Drops
--- No Drops
--- No Drops
--- No Drops
 -- Breezy Hills
 (23, 10000056),
 (23, 10000057),
@@ -101,6 +90,26 @@ INSERT INTO Map_Drop(Map_Id, Item_Id) VALUES
 (2, 12000117),
 -- Crusader Training Ground
 -- No Drops
+-- Desert of the Dead
+(29, 10000012),
+(29, 10000058),
+(29, 10000383),
+(29, 10000970),
+(29, 12000020),
+(29, 12000025),
+(29, 12000026),
+(29, 12000046),
+(29, 12000047),
+(29, 12000048),
+(29, 12000049),
+(29, 12000050),
+(29, 12000056),
+(29, 12000057),
+(29, 12000058),
+(29, 12000059),
+(29, 12000060),
+(29, 12000115),
+(29, 12000189),
 -- El Verloon Desert
 (24, 10000056),
 (24, 10000057),
@@ -353,7 +362,7 @@ INSERT INTO Map_Drop(Map_Id, Item_Id) VALUES
 (55, 12000080),
 (55, 12000120),
 (55, 12000144),
--- Luna Clan Field
+-- Lunar Clan Field
 (59, 10000182),
 (59, 10000183),
 (59, 10000184),

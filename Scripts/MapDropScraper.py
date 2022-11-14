@@ -1,10 +1,12 @@
 from urllib.request import urlopen, Request
 from bs4 import BeautifulSoup
 
-classic_cookie = "__cfduid=d58250aa6a5c6ac7724145d25e47ebd451561749569; _ga=GA1.2.321784818.1561749569; _gid=GA1.2.2023892471.1564446449; PHPSESSID=p5uqsre7f31vbpgtdt0j7u8epe; _gat_gtag_UA_138690065_1=1"
+classic_cookie = "PHPSESSID=3etfme0s02eledh7mtfovmplhh"
 
 maps_url = "https://armory.aruarose.com/maps/"
 map_ids = ["1", "2"]
+
+map_data = []
 
 for map in map_ids:
     drop_data = []
@@ -21,6 +23,7 @@ for map in map_ids:
         page = urlopen(Request(url, headers={'User-Agent': 'Mozilla', "Cookie": classic_cookie}))
         soup = BeautifulSoup(page, features="html.parser")
         map_name = soup.find("h2").get_text()
+        map_data.append("(" + map_id + ", " + map + ", '" + map_name + "'),")
         drop_data.append("-- " + map_name)
         all_tables = soup.find_all("table")
         drop_rows = all_tables[-1].find("tbody").find_all("tr")
@@ -36,4 +39,8 @@ for map in map_ids:
             
     with open('MapDropData.txt', 'a') as f:
         for item in drop_data:
+            f.write("%s\n" % item)
+
+    with open('MapData.txt', 'a') as f:
+        for item in map_data:
             f.write("%s\n" % item)
