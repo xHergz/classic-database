@@ -1,7 +1,7 @@
 from urllib.request import urlopen, Request
 from bs4 import BeautifulSoup
 
-classic_cookie = "PHPSESSID=hj5hrvg1qmmkvhpahcbq3jrj7d"
+classic_cookie = "PHPSESSID=jsi73n04q8v2hmneps6lhps2ae"
 
 etc_url = "https://armory.aruarose.com/items/material/"
 gems_url = "https://armory.aruarose.com/items/gems/"
@@ -33,6 +33,6 @@ for group in etc_groups:
                
         etc_data.append("(" + id + ", " + str(etc_types[type_index]) + ", '" + name + "'), -- " + icon)
 
-with open('EtcData_Arua.txt', 'a') as f:
+with open('EtcData.txt', 'a') as f:
     for item in etc_data:
         f.write("%s\n" % item)

@@ -29,7 +29,7 @@ def get_job(job_str):
     else:
         return "-1"
 
-classic_cookie = "__cfduid=d58250aa6a5c6ac7724145d25e47ebd451561749569; _ga=GA1.2.321784818.1561749569; _gid=GA1.2.2023892471.1564446449; PHPSESSID=rco9j44h4r56bud62o93roqq9n; _gat_gtag_UA_138690065_1=1"
+classic_cookie = "PHPSESSID=1rbpip1te6ud0pc08dkctj8t7f"
 
 item_url = "https://armory.aruarose.com/tooltip/item/"
 armor_ids = [
